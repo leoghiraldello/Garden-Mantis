@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&family=Poppins:wght@300&family=Roboto&display=swap');
+
+@font-face {
+    src: url(".fonts/lessti.ttf");
+    font-family: 'Lessti';
+}
+
+@font-face {
+    src: url(".fonts/afterglow-regular.ttf");
+    font-family: 'Afterglow Regular';
+}
+
+@font-face {
+    src: url(".fonts/giveny.ttf");
+    font-family: 'Giveny';
+}
+
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Krona One', 'Montserrat', 'Poppins', 'Roboto', 'Lessti', 'Afterglow Regular', 'Giveny', sans-serif;
+}
+
+:root {
+    --black-color: #000000;
+    --white-color: #f6f6f6;
+    --darkgreen-color: #525d22;
+    --lightgreen-color: #91a450;
+    --yellow-color: #fde562;
+    --dropdown-green-color: #626f2a; 
+
+    --main-font: 'Poppins', sans-serif;
+    --lessi-font: 'Lessti', sans-serif;
+    --afterglow-font: 'Afterglow Regular', sans-serif;
+    --giveny-font: 'Giveny', sans-serif;
+}
+
+body {
+    background: var(--darkgreen-color);
+    font-family: var(--main-font);
+}
+
+.main {
+    height: 100vh;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--white-color);
+    text-align: center;
+}
+
+.image {
+    width: 200px;
+}
+
+.company-name {
+    font-family: var(--lessi-font);
+    font-size: 2.5em;
+}
+
+.activity {
+    font-family: var(--afterglow-font);
+    font-size: 2em;
+    color: var(--lightgreen-color);
+    font-weight: lighter;
+}
+
+.text {
+    margin-top: 30px;
+    font-size: 2em;
+}
+
+.paragraph {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.contact-number {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-number span {
+   color: var(--white-color);
+   background-color: var(--lightgreen-color);
+   font-size: 1.5em;
+   border-radius: 50px;
+   margin-right: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 5px;
+}
+
+.contact-number a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.contact-number a:hover {
+    color: var(--yellow-color);
+}
+
+.btn {
+    margin-top: 30px;
+    background: var(--lightgreen-color);
+    text-decoration: none;
+    font-size: 1.5em;
+    color: var(--white-color);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background: var(--yellow-color);
+    color: var(--darkgreen-color);
+}
+
+@media (max-width: 768px) {
+    
+    .image {
+        width: 150px;
+    }
+
+    .company-name {
+        font-size: 1.8em;
+    }
+
+    .activity {
+        font-size: 1.5em;
+    }
+
+    .text {
+        margin-top: 20px;
+        font-size: 1.6em;
+    }
+
+    .paragraph {
+        font-size: 1em;
+    }
+
+    .contact-number span {
+        font-size: 1.2em;
+    }
+
+    .btn {
+        font-size: 1.2em;
+    }
+}
+
