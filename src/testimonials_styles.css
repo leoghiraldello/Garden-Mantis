@@ -427,8 +427,9 @@ body {
 
     .responsive-dropdown-menu {
         position: fixed;
-        top: -100%;
+        top: -120%;
         height: 100vh;
+	overflow-y: auto;    
         gap: 0;
         display: flex;
         flex-direction: column;
@@ -464,7 +465,7 @@ body {
     }
 
     .responsive-dropdown-menu img {
-        width: 70%;
+        width: 50%;
         margin: 20px 0;
     }
 
@@ -564,8 +565,9 @@ body {
 
     .responsive-dropdown-menu {
         position: fixed;
-        top: -100%;
+        top: -120%;
         height: 100vh;
+	overflow-y: auto;    
         gap: 0;
         display: flex;
         flex-direction: column;
@@ -597,7 +599,7 @@ body {
     }
 
     .responsive-dropdown-menu img {
-        width: 70%;
+        width: 50%;
         margin: 20px 0;
     }
 
