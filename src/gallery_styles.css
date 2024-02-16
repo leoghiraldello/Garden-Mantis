@@ -179,8 +179,9 @@ body {
 
 .img-gallery img {
     width: 100%;
-    height: 180px;
+    height: auto;
     cursor: pointer;
+    object-fit: cover;	
 }
 
 .img-gallery img:hover {
@@ -463,12 +464,6 @@ body {
         right: 45%; 
     }
 
-    .full-img img {
-        width: 90%;
-        max-width: 500px;
-	height: 40%;
-    }
-
     /* Section 3 */
 
      .section3-button-text  {
@@ -594,12 +589,6 @@ body {
 
     .img-gallery img:hover {
         transform: none;
-    }
-
-    .full-img img {
-        width: 90%;
-        max-width: 500px;
-	height: 40%;
     }
 
     /* Section 3 */
