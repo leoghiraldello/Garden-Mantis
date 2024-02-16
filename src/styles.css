@@ -153,7 +153,7 @@ body {
 
 .hero-logo-name-buttons {
     position: absolute;
-    top: 50vh;
+    top: 55vh;
     left: 50vw;
     transform: translate(-50%, -50%);
     display: flex;
@@ -169,7 +169,7 @@ body {
 }
 
 .logo-center img {
-    height: 220px;
+    height: 30vh;
     width: auto;
 }
 
@@ -954,7 +954,7 @@ body {
     }
 
     .logo-center img {
-        height: 180px;
+        height: 25vh;
     }
 
     .company-name {
@@ -1227,7 +1227,7 @@ body {
     }
 
     .logo-center img {
-        height: 190px;
+        height: 27vh;
     }
 
     .company-name {
