@@ -202,7 +202,7 @@ body {
 }
 
 .contact {
-    padding: 40px;
+    padding: 20px;
     background: var(--darkgreen-color);
 }
 
@@ -258,6 +258,7 @@ body {
 }
 
 .inputBox input {
+    width: 100%;
     padding: 10px;
     font-size: 1.1em;
     outline: none;
