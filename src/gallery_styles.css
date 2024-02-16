@@ -454,7 +454,7 @@ body {
     /* Phot Gallery */
 
     .img-gallery img:hover {
-        transform: scale(0.9) rotate(-15deg);
+        transform: none;
     }
 
     .full-img span {
@@ -465,6 +465,7 @@ body {
     .full-img img {
         width: 90%;
         max-width: 500px;
+	height: 50%;
     }
 
     /* Section 3 */
@@ -586,6 +587,12 @@ body {
         font-size: 55px;
         word-spacing: 20px;
     }
+
+    /* Phot Gallery */
+
+    .img-gallery img:hover {
+        transform: none;
+    }	
 
     /* Section 3 */
 
