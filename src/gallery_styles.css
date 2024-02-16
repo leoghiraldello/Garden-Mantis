@@ -465,7 +465,7 @@ body {
     .full-img img {
         width: 90%;
         max-width: 500px;
-	height: 50%;
+	height: 40%;
     }
 
     /* Section 3 */
@@ -592,7 +592,13 @@ body {
 
     .img-gallery img:hover {
         transform: none;
-    }	
+    }
+
+    .full-img img {
+        width: 90%;
+        max-width: 500px;
+	height: 40%;
+    }
 
     /* Section 3 */
 
