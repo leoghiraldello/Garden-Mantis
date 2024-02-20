@@ -45,20 +45,6 @@ for(i = 0; i<accordion.length; i++){
     })
 }
 
-// Photo Gallery - Revealing big images
-
-var fullImgBox = document.getElementById("fullImgBox");
-var fullImg = document.getElementById("fullImg");
-
-function openFullImg(pic){
-    fullImgBox.style.display = "flex";
-    fullImg.src = pic;
-}
-
-function closeFullImg(){
-    fullImgBox.style.display = "none";
-}
-
 // Copyright - year update
 
 document.addEventListener("DOMContentLoaded", function() {
