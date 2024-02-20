@@ -8,6 +8,7 @@
     <title>Garden Mantis Landscaping - Photo Gallery</title>
     <link rel="stylesheet" href="src/gallery_styles.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="src/lightbox.min.css">
     <link rel="short icon" type="image/ico" href="imagesforproject/favicon/favicon.ico"/>
 </head>
 <body>
@@ -64,45 +65,41 @@
             <h1>Photo Gallery</h1>
         </div>
     </nav>
-    <section class="full-img" id="fullImgBox">
-        <img src="imagesforproject/gallery/picture1.jpg" alt="Photo for gallery" id="fullImg">
-        <span onclick="closeFullImg()">X</span>
-    </section>
     <section class="img-gallery">
-        <img src="imagesforproject/gallery/picture1.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture2.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture3.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture4.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture5.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture6.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture7.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture8.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture9.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture10.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture11.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture12.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture13.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture14.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture15.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture16.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture17.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture18.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture19.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture20.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture21.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture22.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture23.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture24.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture25.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture26.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture27.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture28.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture29.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture30.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture31.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture32.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture33.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
-        <img src="imagesforproject/gallery/picture34.jpg" alt="Photo for gallery" onclick="openFullImg(this.src)">
+       <a href="imagesforproject/gallery/picture1.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture1.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture2.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture2.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture3.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture3.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture4.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture4.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture5.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture5.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture6.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture6.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture7.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture7.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture8.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture8.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture9.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture9.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture10.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture10.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture11.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture11.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture12.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture12.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture13.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture13.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture14.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture14.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture15.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture15.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture16.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture16.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture17.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture17.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture18.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture18.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture19.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture19.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture20.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture20.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture21.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture21.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture22.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture22.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture23.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture23.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture24.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture24.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture25.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture25.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture26.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture26.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture27.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture27.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture28.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture28.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture29.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture29.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture30.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture30.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture31.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture31.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture32.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture32.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture33.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture33.jpg" alt="Photo for gallery"></a>
+        <a href="imagesforproject/gallery/picture34.jpg" data-lightbox="mygallery"><img src="imagesforproject/gallery/picture34.jpg" alt="Photo for gallery"></a> 
     </section>
     <section class="section3">
         <h1 data-aos="fade-in">Give your garden the care it deserves</h1>
@@ -159,6 +156,13 @@
         });
     </script> 
     <script src="src/index.js"></script>
+    <script src="src/lightbox-plus-jquery.min.js"></script>
+    <script>
+        lightbox.option({
+          'resizeDuration': 200,
+          'wrapAround': true
+        })
+    </script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
