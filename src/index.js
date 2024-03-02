@@ -22,6 +22,16 @@ document.querySelectorAll(".nav-links li a").forEach(n => n.addEventListener("cl
     navMenu.classList.remove("active");
 }))
 
+// onclick function to the logo
+
+var logos = document.getElementsByClassName('logo');
+        
+        for (var i = 0; i < logos.length; i++) {
+            logos[i].onclick = function() {
+                // Redirect to the index page
+                window.location.href = 'index.html';
+            };
+        }
 
 // Slides section 6 of Homepage
 
