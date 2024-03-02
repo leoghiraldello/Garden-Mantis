@@ -66,6 +66,11 @@ body {
     width: auto;
 }
 
+.logo:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
 .hamburger {
     display: none;
     cursor: pointer;
@@ -257,6 +262,10 @@ body {
 
 .footer-logo img {
     width: 90px;
+}
+
+.footer-logo img:hover {
+    transform: scale(1.2);
 }
 
 .footer-logo h1 {
