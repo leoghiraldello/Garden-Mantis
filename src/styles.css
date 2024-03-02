@@ -789,6 +789,10 @@ body {
     width: 90px;
 }
 
+.footer-logo img:hover {
+    transform: scale(1.2);
+}
+
 .footer-logo h1 {
     font-family: var(--lessi-font);
     font-size: 40px;
